@@ -40,7 +40,7 @@ export class AppMenuComponent implements OnInit {
                 label: 'Roles y Usuarios',
                 items: [
                         {label: 'Usuarios', icon: 'pi pi-fw pi-users', routerLink: ['/utilities/icons']},
-                        {label: 'Roles', icon: 'pi pi-fw pi-desktop', url: ['/https://www.primefaces.org/primeflex/'], target: '_blank'}
+                        {label: 'Roles', icon: 'pi pi-fw pi-desktop', url: ['https://www.primefaces.org/primeflex/'], target: '_blank'}
                 ]
             }
         ];
